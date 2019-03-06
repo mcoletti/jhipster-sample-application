@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.mcoletti.application",
+    "packageFolder": "io/github/mcoletti/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "consul",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "NzQ4MmEwYmViZDZjNTk1MjcxMWMyYjIzNDRmMDQxNDU5MTBlYzdlM2U0Y2Y3OGRmZTJiMmVmMGE4YWNjODJjMGFkMGEzZjUyOGQ1YmZhYmQ2NzYxYWQzMjA1MTIxNTM5YTA0M2RkYTk1MDFlZjI5N2NmMTU3OWVmYTcwMDJjOTY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "mcoletti",
+  "repository-name": "jhipster-sample-application"
+}
